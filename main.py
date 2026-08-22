@@ -21,7 +21,7 @@ FEEDS = [
 STATE_FILE = "last_seen.json"
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-3.6-flash"
 
 # Explicit list of notable people / entities. The AI filter is also allowed
 # to use its own general knowledge beyond this list, but these are always
