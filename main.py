@@ -89,7 +89,7 @@ def analyze_with_gemini(title, summary):
 
 Tugas kamu ada 2:
 1. Tentukan apakah artikel ini menyebut tokoh besar, founder proyek besar, VC ternama, atau exchange besar di dunia crypto/AI/finance. Contoh nama yang WAJIB dianggap relevan: {entity_list_str}. Selain daftar ini, kamu boleh pakai pengetahuanmu sendiri untuk mengenali tokoh/entitas besar lain yang relevan di dunia crypto, AI, atau makroekonomi global, meskipun tidak ada di daftar.
-2. Jika relevan, buat judul singkat ala breaking news (bombastis tapi tetap akurat, gaya media crypto Indonesia) dan ringkasan 2-3 kalimat dalam Bahasa Indonesia yang mudah dipahami.
+2. Jika relevan, buat judul dan ringkasan dalam Bahasa Indonesia dengan gaya jurnalistik yang formal, profesional, dan mudah dipahami. Aturan: judul lugas dan faktual, maksimal 15 kata, tanpa tanda seru, tanpa huruf kapital berlebihan, tanpa kata hiperbolik (misalnya melayang, bakal tembus, meledak). Ringkasan 2-3 kalimat pendek yang hanya memuat fakta dari artikel (siapa, apa, angka, kapan), tanpa opini, tanpa prediksi, dan tanpa menambah informasi yang tidak ada di artikel. Gunakan istilah crypto umum apa adanya dan jelaskan singkat bila perlu.
 
 Artikel:
 Judul: {title}
